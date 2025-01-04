@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\vs_learn\\base_learn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|F:\\vs_learn\\base_learn\\Project1\\lock_thread_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|solutionrelative:Project1\\lock_thread_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|F:\\vs_learn\\base_learn\\Project1\\io_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|solutionrelative:Project1\\io_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|F:\\vs_learn\\base_learn\\Project1\\fio_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|solutionrelative:Project1\\fio_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|F:\\vs_learn\\base_learn\\Project1\\smart_learn_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|solutionrelative:Project1\\smart_learn_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|F:\\vs_learn\\base_learn\\Project1\\sstream_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3DBB4A2-145C-4B8F-85EB-E1FE058974B5}|Project1\\Project1.vcxproj|solutionrelative:Project1\\sstream_learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lock_thread_learn.cpp",
+              "DocumentMoniker": "F:\\vs_learn\\base_learn\\Project1\\lock_thread_learn.cpp",
+              "RelativeDocumentMoniker": "Project1\\lock_thread_learn.cpp",
+              "ToolTip": "F:\\vs_learn\\base_learn\\Project1\\lock_thread_learn.cpp",
+              "RelativeToolTip": "Project1\\lock_thread_learn.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T08:21:38.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "smart_learn_pointer.cpp",
+              "DocumentMoniker": "F:\\vs_learn\\base_learn\\Project1\\smart_learn_pointer.cpp",
+              "RelativeDocumentMoniker": "Project1\\smart_learn_pointer.cpp",
+              "ToolTip": "F:\\vs_learn\\base_learn\\Project1\\smart_learn_pointer.cpp",
+              "RelativeToolTip": "Project1\\smart_learn_pointer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-04T08:35:15.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fio_learn.cpp",
+              "DocumentMoniker": "F:\\vs_learn\\base_learn\\Project1\\fio_learn.cpp",
+              "RelativeDocumentMoniker": "Project1\\fio_learn.cpp",
+              "ToolTip": "F:\\vs_learn\\base_learn\\Project1\\fio_learn.cpp",
+              "RelativeToolTip": "Project1\\fio_learn.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-13T14:34:50.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sstream_learn.cpp",
+              "DocumentMoniker": "F:\\vs_learn\\base_learn\\Project1\\sstream_learn.cpp",
+              "RelativeDocumentMoniker": "Project1\\sstream_learn.cpp",
+              "ToolTip": "F:\\vs_learn\\base_learn\\Project1\\sstream_learn.cpp",
+              "RelativeToolTip": "Project1\\sstream_learn.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-13T14:31:57.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "io_learn.cpp",
+              "DocumentMoniker": "F:\\vs_learn\\base_learn\\Project1\\io_learn.cpp",
+              "RelativeDocumentMoniker": "Project1\\io_learn.cpp",
+              "ToolTip": "F:\\vs_learn\\base_learn\\Project1\\io_learn.cpp",
+              "RelativeToolTip": "Project1\\io_learn.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-13T14:31:18.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
