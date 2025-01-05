@@ -1,3 +1,6 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
 web_socket_asio_learn/ filter=lfs diff=lfs merge=lfs -text
 web_socket_asio_learn/AsyApi filter=lfs diff=lfs merge=lfs -text
+web_socket_asio_learn/AsyApi/.vs/AsyApi/v17/Browse.VC.db filter=lfs diff=lfs merge=lfs -text
+web_socket_asio_learn/AsyApi/.vs/AsyApi/v17/ipch/AutoPCH/8c759223440605cc/SESSION.ipch filter=lfs diff=lfs merge=lfs -text
+web_socket_asio_learn/AsyApi/.vs/AsyApi/v17/ipch/AutoPCH/a38eae5c2b1605bd/SESSION.ipch filter=lfs diff=lfs merge=lfs -text
