@@ -1,0 +1,45 @@
+﻿  Asyserver.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  CServer.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  Session.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+F:\vs_learn\Asyserver\Asyserver\Session.cpp(34,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\vs_learn\Asyserver\Asyserver\Session.cpp(51,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\vs_learn\Asyserver\Asyserver\Session.cpp(110,36): warning C4267: “+=”: 从“size_t”转换到“short”，可能丢失数据
+F:\vs_learn\Asyserver\Asyserver\Session.cpp(140,35): warning C4267: “+=”: 从“size_t”转换到“short”，可能丢失数据
+F:\vs_learn\Asyserver\Asyserver\Session.cpp(181,34): warning C4267: “+=”: 从“size_t”转换到“short”，可能丢失数据
+D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4267: “参数”: 从“size_t”转换到“short”，可能丢失数据
+  (编译源文件“Session.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xutility(403,82):
+      模板实例化上下文(最早的实例化上下文)为
+          F:\vs_learn\Asyserver\Asyserver\Session.cpp(40,17):
+          查看对正在编译的函数 模板 实例化“std::shared_ptr<MsgNode> std::make_shared<MsgNode,const _Elem*,unsigned __int64>(const _Elem *&&,unsigned __int64 &&)”的引用
+          with
+          [
+              _Elem=char
+          ]
+          D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\memory(2906,46):
+          查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<MsgNode>::_Ref_count_obj2<_Ty,unsigned __int64>(_Ty &&,unsigned __int64 &&)”的引用
+          with
+          [
+              _Ty=const char *
+          ]
+          D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\memory(2095,18):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,const char*,unsigned __int64>(_Ty &,const char *&&,unsigned __int64 &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=MsgNode
+          ]
+  
+  正在生成代码...
+  Asyserver.vcxproj -> F:\vs_learn\Asyserver\x64\Debug\Asyserver.exe
