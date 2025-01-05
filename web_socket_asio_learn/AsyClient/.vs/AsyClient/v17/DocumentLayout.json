@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\vs_learn\\AsyClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A0B3384-E110-4ECC-A415-EE7D0144D630}|AsyClient\\AsyClient.vcxproj|F:\\vs_learn\\AsyClient\\AsyClient\\AsyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5A0B3384-E110-4ECC-A415-EE7D0144D630}|AsyClient\\AsyClient.vcxproj|solutionrelative:AsyClient\\AsyClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AsyClient.cpp",
+              "DocumentMoniker": "F:\\vs_learn\\AsyClient\\AsyClient\\AsyClient.cpp",
+              "RelativeDocumentMoniker": "AsyClient\\AsyClient.cpp",
+              "ToolTip": "F:\\vs_learn\\AsyClient\\AsyClient\\AsyClient.cpp",
+              "RelativeToolTip": "AsyClient\\AsyClient.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-25T13:56:33.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
