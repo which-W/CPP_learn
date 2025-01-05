@@ -1,0 +1,17 @@
+# Ignore Visual Studio temporary files, build generated files, and folders
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+obj/
+bin/
+Debug/
+Release/
+x64/
+x86/
+build/
+Build/
+
+# Ignore ipch files
+*.ipch
