@@ -6,6 +6,12 @@ namespace fs = std::filesystem;
 class Logger
 {
 public:
+	Logger() :Logger("log.txt", false, 100) {};
+	Logger(const Logger& other) = delete;
+	Logger(const Logger&& other) = delete;
+	Logger& operator = (const Logger& other) = delete;
+	Logger& operator = (const Logger&& other) = delete;
+
 	Logger(const std::string& filename, bool console_output = false,size_t max_file_size_kb = 100) :_exit_flag(false)
 		,_console_output(console_output),_max_file_size(max_file_size_kb * 1024),_base_filename(filename){
 		open_log_file();
