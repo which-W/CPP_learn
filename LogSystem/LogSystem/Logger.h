@@ -1,16 +1,15 @@
 #pragma once
 #include "global.h"
 #include"LogQueue.h"
-
+#include "Singgle.h"
 namespace fs = std::filesystem;
-class Logger
+class Logger 
 {
 public:
-	Logger() :Logger("log.txt", false, 100) {};
-	Logger(const Logger& other) = delete;
 	Logger(const Logger&& other) = delete;
-	Logger& operator = (const Logger& other) = delete;
 	Logger& operator = (const Logger&& other) = delete;
+	Logger(const Logger& other) = delete;
+	Logger& operator = (const Logger& other) = delete;
 
 	Logger(const std::string& filename, bool console_output = false,size_t max_file_size_kb = 100) :_exit_flag(false)
 		,_console_output(console_output),_max_file_size(max_file_size_kb * 1024),_base_filename(filename){
@@ -45,7 +44,7 @@ public:
 
 	template<typename ...Args>
 	void log(LogLevel Loglevel, const std::string& format, Args&& ...args) {
-		
+
 		std::string loglevel_str;
 		switch (Loglevel) {
 		case LogLevel::INFO: loglevel_str = "[INFO] "; break;
@@ -54,7 +53,6 @@ public:
 		}
 		_log_queue.push(loglevel_str + formatMessage(format, std::forward<Args>(args)...));
 	}
-	//  console_log 方法，直接输出到控制台
 	template<typename... Args>
 	void console_log(LogLevel level, const std::string& format, Args&&... args) {
 		std::string loglevel_str;
@@ -68,49 +66,19 @@ public:
 	}
 
 
+
 private:
-	void open_log_file() {
-		if (_log_file.is_open()) {
-			_log_file.close();
-		}
-		_log_file.open(_base_filename, std::ios::out | std::ios::app);
-	}
+	void open_log_file();
 
-	void check_and_rotate_log_file() {
-		if (get_file_size() >= _max_file_size) {
-			rotate_log_file();
-		}
-	}
+	void check_and_rotate_log_file();
 
-	size_t get_file_size() {
-		if (!fs::exists(_base_filename)) {
-			return 0;
-		}
-		return (size_t)fs::file_size(_base_filename);
-	}
+	size_t get_file_size();
 
-	void rotate_log_file() {
-		_log_file.close();
-		
-		std::string new_log_name = _base_filename + "." + std::to_string(++_current_log_index);
-
-		if (fs::exists(_base_filename)) {
-			fs::rename(_base_filename, new_log_name);
-		}
-
-		
-		open_log_file(); // 打开新的日志文件
-	}
+	void rotate_log_file();
 
 
 	//时间戳
-	std::string get_time() {
-		auto now = std::chrono::system_clock::now();
-		std::time_t time = std::chrono::system_clock::to_time_t(now);
-		char buffer[100];
-		std::strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", std::localtime(&time));
-		return std::string(buffer);
-	}
+	std::string get_time();
 	// 使用模板折叠格式化日志消息，支持 "{}" 占位符
 	template<typename... Args>
 	std::string formatMessage(const std::string& format, Args&&... args) {
@@ -143,6 +111,8 @@ private:
 
 		return "[" + get_time() + "] " + oss.str();
 	}
+
+	
 
 	std::thread _work_threads;
 	std::ofstream _log_file;
