@@ -11,7 +11,7 @@
 #include<stdexcept>
 #include<filesystem>
 #include <iostream>
-
+#include <unordered_map>
 
 enum LogLevel
 {

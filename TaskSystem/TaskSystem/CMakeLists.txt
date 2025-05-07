@@ -3,7 +3,7 @@ file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 #添加头文件（根据实际的安装目录修改，linux上）
 set(Json_Include ${CMAKE_CURRENT_SOURCE_DIR}/include/nlohmann)
 # 创建可执行文件
-add_executable(TaskSystem_exec ${SOURCES})
+add_executable(TaskSystem_exec ${SOURCES} "CommandWrapper.h")
 # 添加 nlohmann 头文件路径
 target_include_directories(TaskSystem_exec
     PRIVATE 

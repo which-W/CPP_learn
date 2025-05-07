@@ -13,6 +13,9 @@ void AddCommand::executeImpl(const std::string& args) {
     std::string description = args.substr(0, pos1);
     int priority = std::stoi(args.substr(pos1 + 1, pos2 - pos1 - 1));
     std::string dueDate = args.substr(pos2 + 1);
+    std::cout << description << std::endl;
+    std::cout << priority << std::endl;
+    std::cout << dueDate << std::endl;
     taskManager.addTask(description, priority, dueDate);
     std::cout << "任务添加成功。" << std::endl;
 }
@@ -36,7 +39,14 @@ void DeleteCommand::executeImpl(const std::string& args) {
         std::cout << "ID超出范围。请使用有效的任务ID。" << std::endl;
         return;
     }
-
+    catch (const std::exception& e) {
+        std::cout << "删除任务时发生异常: " << e.what() << std::endl;
+        return;
+    }
+    catch (...) {
+        std::cout << "发生未知错误。" << std::endl;
+        return;
+    }
 }
 
 void ListCommand::executeImpl(const std::string& args) {
@@ -62,4 +72,9 @@ void UpdateCommand::executeImpl(const std::string& args) {
     std::string dueDate = args.substr(pos3 + 1);
     taskManager.updateTask(id, description, priority, dueDate);
     std::cout << "任务更新成功。" << std::endl;
+}
+
+void Update_IndexCommand::executeImpl(const std::string& args) {
+    taskManager.upgrate_index();
+    std::cout << "索引更新成功。" << std::endl;
 }
