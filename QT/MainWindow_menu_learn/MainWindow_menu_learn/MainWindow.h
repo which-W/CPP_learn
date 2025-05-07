@@ -1,10 +1,10 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
+#include "ui_MainWindow.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui { class MainWindowClass; };
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -16,6 +16,5 @@ public:
     ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::MainWindowClass *ui;
 };
-#endif // MAINWINDOW_H

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layout_learn", "layout_learn\layout_learn.vcxproj", "{343498CA-9FA6-4187-8DFE-02FECD604680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343498CA-9FA6-4187-8DFE-02FECD604680}.Debug|x86.ActiveCfg = Debug|Win32
+		{343498CA-9FA6-4187-8DFE-02FECD604680}.Debug|x86.Build.0 = Debug|Win32
+		{343498CA-9FA6-4187-8DFE-02FECD604680}.Release|x86.ActiveCfg = Release|Win32
+		{343498CA-9FA6-4187-8DFE-02FECD604680}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C95AB59F-B3F3-41F4-951D-F78AB0CF253A}
+	EndGlobalSection
+EndGlobal
