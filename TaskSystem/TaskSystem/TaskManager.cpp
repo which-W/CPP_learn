@@ -1,5 +1,5 @@
 #include"TaskManager.h"
-#include "nlohmann/json.hpp"
+#include "../includes/nlohmann/json.hpp"
 // 使用 nlohmann 命名空间简化代码
 using json = nlohmann::json;
 TaskManager::TaskManager() :next_Id(1)
@@ -30,7 +30,6 @@ void TaskManager::loadTasks()
 
 	// 解析 JSON 数据
 	json jsonDataParsed = json::parse(jsonData);
-	std::cout << jsonDataParsed << std::endl;
 	// 遍历 JSON 数组中的每个任务对象
 	for (const auto& item : jsonDataParsed) {
 		Task task;

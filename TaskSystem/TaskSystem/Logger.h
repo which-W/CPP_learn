@@ -12,7 +12,7 @@ public:
 	}
 	// 新增：默认构造函数用于单例
 	Logger() : _exit_flag(false),
-		_console_output(true),
+		_console_output(false),
 		_max_file_size(100 * 1024),
 		_base_filename("Task.log") {
 		open_log_file();
