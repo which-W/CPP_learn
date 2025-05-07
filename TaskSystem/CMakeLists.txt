@@ -11,7 +11,7 @@ endif()
 
 project ("TaskSystem")
 # 包含子项目。
-add_subdirectory ("TaskSystem_exec")
+add_subdirectory ("TaskSystem")
 
 
 # TODO: 如有需要，请添加测试并安装目标。
