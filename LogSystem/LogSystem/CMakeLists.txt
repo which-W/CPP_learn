@@ -6,7 +6,7 @@
 add_executable (LogSystem "LogSystem.cpp" "LogSystem.h" "global.h" "LogQueue.h" "Logger.h" "Singgle.h" "Logger.cpp" "LogQueue.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET LogSystem PROPERTY CXX_STANDARD 20)
+  set_property(TARGET LogSystem PROPERTY CXX_STANDARD 17)
 endif()
 
 # TODO: 如有需要，请添加测试并安装目标。
