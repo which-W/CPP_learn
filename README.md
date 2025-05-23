@@ -1,45 +1,33 @@
-# CPP_learn 代码库介绍
+### CPP_learn Code Repository Introduction
+## 1. Project Overview
+This repository is primarily used to store content related to learning C++. It includes fundamental C++ knowledge, the utilization of relevant STL (Standard Template Library), as well as implementations of some simple projects.
 
-## 一、项目概述
+## 2. Repository Structure
+# 1. Memory_Pool
+This directory contains code related to memory pools, which is aimed at optimizing memory allocation and management. (Simple implementation)
 
-本代码库主要用于存储C++学习相关的内容，包含基础C++知识和相关STL的使用，同时也有一些简单项目的实现。
+2. QT
+This folder holds code associated with the QT framework for developing graphical user interface applications.
 
-## 二、代码库结构
+3. Server_Project
+Here you will find the code for server projects intended to implement functionalities related to network servers. (Still under development)
 
-### 1. Memory_Pool
+4. base_know
+This directory stores "eight-part essays" on fundamental C++ knowledge points, aiding learners in mastering the basics and preparing for interviews.
 
-该目录包含与内存池相关的代码，用于优化内存分配和管理。（简单实现）
+5. base_learn
+This section includes code pertaining to foundational C++ learning to further consolidate basic skills.
 
-### 2. QT
+6. mystl
+Contains custom implementations of STL (Standard Template Library) code to gain a deeper understanding of STL principles, including JSON, vector, shared_ptr, and a small file management system.
 
-此目录存放与QT框架相关的代码，用于开发图形用户界面应用程序。
+7. thread_learn
+This directory includes code related to learning about threads to understand multithreading programming.
 
-### 3. Server_Project
+8. web_socket_asio_learn
+Here are codes for learning WebSocket programming using the Asio library.
 
-这里包含服务器项目的代码，用于实现网络服务器相关的功能。（还在开发中）
-
-### 4. base_know
-
-该目录存储C++基础知识点的八股文，帮助学习者掌握基础知识，轻松应对面试。
-
-### 5. base_learn
-
-此目录包含C++基础学习的相关代码，进一步巩固基础。
-
-### 6. mystl
-
-存放自定义的STL（标准模板库）实现代码，用于深入理解STL的原理，包括json，vector以及share_ptr和文件管理小系统。
-
-### 7. thread_learn
-
-该目录包含与线程学习相关的代码，用于了解多线程编程。
-
-### 8. web_socket_asio_learn
-
-这里有关于使用Asio库进行WebSocket编程学习的代码。
-
-## 三、更新记录
-
-### 2025/3/2 添加部分聊天系统内容
-
- - 完成部分的UI设计，注册页面的代码基本完成。
+3. Update Log
+March 2, 2025 Added parts of chat system content
+Completed parts of the UI design, with the registration page code mostly finished.
+This translation covers your original text's intent and structure while adapting it into fluent English suitable for an international audience or documentation purposes.
